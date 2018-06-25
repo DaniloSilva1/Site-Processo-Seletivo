@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Teste</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./Css/estilo.css" />
+    <script  src="https://code.jquery.com/jquery-3.3.1.js"   integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="cabecalho">
+       <figure class="logo" >
+           <img src="./img/logo.png" alt="Logo">
+        </figure> 
+        <h1>Contrate um estagiário!</h1>
+    </header>
+
+    <section class="principal">
+
+        <aside class="painel esquerdo">
+
+            <figure id ="fotoprincipal" class="fotoprincipal" >
+                  <img src="./img/estagiario.jpg" alt="estagiário">
+                  <img src="./img/estagiario2.jpeg" alt="estagiário">
+                  <img src="./img/estagiario3.jpg" alt="estagiário">
+                  <img src="./img/estagiario4.jpeg" alt="estagiário">    
+                </figure> 
+
+
+        </aside>
+
+        <article class="texto">
+
+                <h3>Cinco motivos para se contratar um estagiário</h3>
+
+                <h5>Mais flexibilidade</h5>
+                <p> O estágio pode ser o primeiro trabalho de muitas pessoas, 
+                o que é uma boa oportunidade para ensinar o estagiário em seu desenvolvimento profissional.
+                “Um estudante pode ser visto como uma página em branco, no sentido de não ter vícios,
+                então é mais fácil orientá-lo e fazer com que ele siga os processos da empresa”, 
+                comenta Beatriz Caromano, especialista de produto e projeto da plataforma de recrutamento Estagiários Online.
+                </p>
+
+                <h5>O estagiário veste a camisa da empresa</h5>
+                <p>  Ao perceber a sua evolução, o funcionário se sente cada
+                vez mais parte da equipe que o acolheu e abriu as portas
+                para colocar em prática tudo o que aprendeu na faculdade.
+                Além disso, ao reconhecer a aposta da companhia no seu crescimento,
+                a ligação pode ser maior e fazer com que o membro do time se dedique ainda mais para o progresso da empresa.
+                </p> 
+
+                <h5>Ele também traz a inovação</h5> 
+                <p> Ver as coisas de “fora da caixa” é uma forte característica dos jovens, 
+                algo extremamente positivo no momento de inovar e quebrar tradicionalismos 
+                em ambientes profissionais. “Eles acabam trazendo novas ideias, e enxergam caminhos os quais pessoas que fazem a mesma coisa por muito tempo não se questionam mais”, aponta a especialista do Estagiários Online.
+                </p> 
+
+                <h5>É possível acompanhar o desenvolvimento profissional</h5>
+                <p> Ao ingressar no ambiente de trabalho, ainda inexperiente, 
+                o estagiário aprende tudo na companhia. 
+                Então, é mais fácil para o empregador mensurar o crescimento dele, ter maior percepção quando ele estagna e corrigir algum erro no processo. Tal proximidade gera maior confiança e aumenta as chances de efetivação, por exemplo.
+                </p>
+
+                <h5>Mais vitalidade e energia para equipe</h5> 
+                <p>O equilíbrio entre experiência profissional e 
+                o conhecimento atualizado é fundamental para o time. 
+                “Por ainda estar na faculdade o estagiário traz conhecimentos renovados, como ações de social media e visão do atual mercado, por exemplo. 
+                Além disso, ele contagia a empresa e outros funcionários com a sua vitalidade e vontade conquistar resultados”, finaliza Beatriz
+                 </p>
+            </article>
+
+
+        <section class="contato">
+            <h2>Deixe sua opinião:<h2></h2>
+                <form action='ServerDanilo.php' method="POST" class="formulario" >
+                    
+                    <input type="text"  minlength="6" maxlength="30" placeholder="Insira seu nome" required  class="campo">
+                    <input type="email" maxlength="20" placeholder="Insira seu e-mail" required  class="campo">
+            
+                    <p>Voce gostou deste candidato a estagiário ?</p>
+                    <input type="radio" name="satisfacao" value="Sim" id="sim" checked>
+                    <label for="sim">Sim</label>
+
+                    <input type="radio"  name="satisfacao" value="Não" id="Não">
+                    <label for="Não">Não</label>
+
+                    <input type="submit" value="Enviar" class="botao">
+                </form>
+
+        </section>
+
+    </section>
+    
+
+    <footer class="rodape">    
+        <h3>Copyright © todos os direitos reservados.</h3>
+         </footer>
+    <script src="./app/script.js"></script> 
+    <script src="./app/Cycle.js"></script> 
+</body>
+</html>
